@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Quill & Ink</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/quill.css">
+    <link rel="stylesheet" href="./style/quill-header.css">
+    <link rel="stylesheet" href="./style/quill-general.css">
+    <link rel="stylesheet" href="./style/calendar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="quill-header">
+      <div class="quill-left-section">
+        <a href="./home.html" class="header-link">
+          <img class="quill-logo"
+          src="img/quill-logo.png">
+        </a>
+      </div>
+
+      <div class="quill-middle-section">
+        <input class="search-bar js-search-bar" type="text" placeholder="Search">
+
+        <button class="search-button js-search-bt">
+          <img class="search-icon" src="img/search.png">
+        </button>
+      </div>
+
+        <a class="cart-link header-link" href="./checkout-books.html">
+          <img class="cart-icon" src="img/cart-empty.png">
+          <div class="cart-quantity js-cart-quantity"></div>
+          <div class="cart-text"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="product-grid js-products-grid">
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-one.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            My First Love
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-45.png">
+            <div class="book-rate-count">
+              829
+            </div>
+          </div>
+
+          <div class="book-price">
+            $14.90
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-two.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            The Very Last Hope
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-45.png">
+            <div class="book-rate-count">
+              523
+            </div>
+          </div>
+
+          <div class="book-price">
+            $18.00
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-three.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Purple Sky Book
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-45.png">
+            <div class="book-rate-count">
+              120
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $11.30
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-four.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Secrets
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-40.png">
+            <div class="book-rate-count">
+              338
+            </div>
+          </div>
+
+          <div class="book-price">
+            $16.75
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-five.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            My Story
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-50.png">
+            <div class="book-rate-count">
+              600
+            </div>
+          </div>
+
+          <div class="book-price">
+            $20.08
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-six.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Paradox
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-40.png">
+            <div class="book-rate-count">
+              995
+            </div>
+          </div>
+
+          <div class="book-price">
+            $19.99
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-seven.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            The Bride Story
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-30.png">
+            <div class="book-rate-count">
+              262
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $13.06
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-eight.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            My little Secret
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-40.png">
+            <div class="book-rate-count">
+              434
+            </div>
+          </div>
+        
+          <div class="book-price">
+            $14.90
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-nine.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Friends
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-50.png">
+            <div class="book-rate-count">
+              669
+            </div>
+          </div>
+
+          <div class="book-price">
+            $22.00
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-ten.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Different World
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-30.png">
+            <div class="book-rate-count">
+              700
+            </div>
+          </div>
+
+          <div class="book-price">
+            $15.63
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-eleven.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Echoes of myself
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-45.png">
+            <div class="book-rate-count">
+              116
+            </div>
+          </div>
+
+          <div class="book-price">
+            $11.45
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-twelve.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Notebook
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-40.png">
+            <div class="book-rate-count">
+              260
+            </div>
+          </div>
+
+          <div class="book-price">
+            $10.95
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>  
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-thirteen.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            My Recpie Book
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-35.png">
+            <div class="book-rate-count">
+              330
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $16.21
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-fourteen.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            My Personal Diary
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-45.png">
+            <div class="book-rate-count">
+              900
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $20.30
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-fifteen.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Bedtime Story
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-40.png">
+            <div class="book-rate-count">
+              755
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $17.60
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-sixteen.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            The Family Stories
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-35.png">
+            <div class="book-rate-count">
+              933
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $19.00
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-seventeen.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            Heart
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-50.png">
+            <div class="book-rate-count">
+              968
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $21.16
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-container">
+          <div class="product-image-container">
+            <img class="product-book-image"
+            src="img/book/trending-booke-eighteen.png">
+          </div>
+
+          <div class="product-name limit-text-to-2-lines">
+            The Broken Mirror
+          </div>
+
+          <div class="books-rating">
+            <img class="books-rating-stars"
+            src="img/ratings/rating-45.png">
+            <div class="book-rate-count">
+              999
+            </div>
+          </div>
+          
+          <div class="book-price">
+            $23.00
+          </div>
+
+          <div class="book-quantity-container">
+            <select>
+              <option selected value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+
+          <div class="product-spacer"></div>
+
+          <div class="add-to-cart">
+            <img src="img/cart-check.png">
+            Added
+          </div>
+
+          <button class="add-to-cart-button button-primary">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./script/book.js"></script>
+    <script src="script/descripBooks.js"></script>
+  </body>
+</html>
