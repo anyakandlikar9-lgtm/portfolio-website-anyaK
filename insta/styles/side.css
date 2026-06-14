@@ -1,0 +1,73 @@
+.side-bar{
+  background-color: rgba(37, 37, 37, 0.656);
+  position: absolute;
+  right:0;
+  bottom:240px;
+  top:325px;;
+  width:650px;
+  height:680px;
+}
+
+.suggestions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suggest{
+  color:rgba(237, 225, 225, 0.915);
+  font-size:18px;
+  padding: 15px 17px;
+}
+
+.see{
+  color:rgba(223, 216, 216, 0.873);
+  font-size:18px;
+  padding: 15px 17px;
+  font-weight: bold;
+}
+
+
+.pls-follow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+}
+
+.follow-one{
+  width:65px;
+  height:65px;
+  border:none;
+  border-radius: 33px;
+  margin-left:10px;
+  margin-right:16px;
+}
+
+.calm{
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  margin-right:350px;
+}
+
+.calm-vibes{
+  color:white;
+  font-weight: bold;
+  font-size:17px;
+  margin-bottom:0.5px;
+}
+
+.suggest-for-u{
+  color: rgba(237, 225, 225, 0.915);
+  font-size: 14px;
+}
+
+.follow{
+  color:#12a3fd;
+  font-size: 22px;
+  text-align: center;
+  cursor: pointer;
+}

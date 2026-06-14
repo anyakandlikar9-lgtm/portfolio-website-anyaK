@@ -1,0 +1,48 @@
+.bottom-info{
+  margin-bottom:28px;
+}
+
+.nav-icons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home, 
+.search,
+.add,
+.reel{
+  width:32px;
+  height:32px; 
+  position: absolute;
+  bottom: 30px;
+}
+
+.profile{
+  width:32px;
+  height:32px; 
+  border:none;
+  border-radius:18px;
+  position: absolute;
+  bottom: 15px;;
+}
+
+.add{
+  width:24px;
+  height:24px; 
+  border-style:solid;
+  border-width:2.5px;
+  border-color:black;
+  padding: 6px 6px;
+  border-radius:8px;
+}
+
+.nav-icons img {
+  transition: filter 0.3s ease;
+  cursor:pointer;
+}
+
+.nav-icons img:hover{
+  filter: drop-shadow(0 0 10px #ed558fe1);
+}

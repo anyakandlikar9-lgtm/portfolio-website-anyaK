@@ -1,0 +1,101 @@
+@media only screen and (max-width:600px), (max-width: 430px) {
+  body{
+    height:auto;
+    padding:10px;
+    background-color: rgba(219, 208, 208, 0.873);
+  }
+
+  .title{
+    font-size:24px;
+    margin-left:10px;
+  }
+
+  .info{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .heart-white,
+  .insta-message {
+    height: 24px;
+    margin-right: 10px;
+  }
+
+  .images {
+    gap: 12px;
+    padding: 5px;
+  }
+
+  .view{
+    width: 50px;
+    height: 52px;
+    border-width: 3px;
+  }
+
+  .dp{
+    font-size:10px;
+  }
+
+  .post{
+    flex-direction: column
+  }
+
+  .post-person,
+  .post-person-two{
+    justify-content: flex-start;
+    margin-bottom:10px;
+    position:static;
+  }
+
+  .heena,
+  .lips {
+    width: 40px;
+    height: 40px;
+  }
+
+  .Mehendi, 
+  .lip-girlie {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size:16px;
+  }
+
+  .mehendi-pic,
+  .lipstick-pic {
+    width:100%;
+    height:auto;
+    margin-left:0;
+    position:static;
+    margin-top:10px;
+  }
+
+  .like,.send,.save,
+  .like-one,.send-one,.save-one {
+    position: static;
+    margin: 8px 8px 8px 0;
+    width: 28px;
+    height: 28px;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .nav-icons{
+    justify-content: space-around;
+    padding:10px;
+  }
+
+  .home, .search, .add,
+  .reel,.profile {
+    position: static;
+    width: 28px;
+    height: 28px;
+    bottom: auto;
+  }
+
+  .side-bar {
+    display:none;
+  }
+}
