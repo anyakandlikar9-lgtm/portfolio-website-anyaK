@@ -1,0 +1,43 @@
+cbody{
+  font-family: Roboto, Arial;
+  color: rgb(33,33,33);
+  margin:0;
+}
+
+p{
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+select {
+  cursor: pointer;
+}
+
+input, select, button{
+  font-family: Merriweather;
+}
+
+.button-primary{
+  color:rgb(33,33,33);
+  background-color: rgba(225, 150, 173, 0.774);
+  border: 1px solid rgba(237, 144, 174, 0.774);
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217,217,0.5);
+  width: 158px;
+  height: 30px;
+  transition: background-color 0.3s;
+}
+
+.button-primary:hover{
+  background-color: rgb(247, 187, 207);
+  border: 1px solid rgb(247, 187, 207);
+}
+
+.button-primary:active{
+  background-color:rgba(254, 123, 164, 0.774);
+  border-color:rgba(254, 123, 164, 0.774);
+}
