@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="styles/website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="anya"><span class="anya-span">A</span>nya</p>
+          <ul>
+            <img class="close" src="images/close.png">
+            <li><a href="#header">Home </a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#portfolio">Portfolio </a></li>
+            <li><a href="#contact">Contact </a></li>
+          </ul>
+          <img class="menu" src="images/menu.png">
+        </nav>
+        <div class="header-row">
+          <div class="header-text">
+            <h1>Hi, I'm <span>Anya</span> <br> Kandlikar From Florida</h1>
+          </div>  
+          <div class="animation">
+            <img class="butterfly" src="images/papillon_violet.svg">
+            <h2 class="job">Front-End developer & <br>
+              Web Designer
+            </h2>
+          </div>
+          <h2 class="job-media">Front-End developer & <br>Web Designer 
+          </h2>
+        </div>
+         <!--  There is hover effect placed on the 3 images  -->
+        <div class="phones">
+          <div class="p-img">
+            <div class="img-box">
+              <img src="images/design.png">
+              <p class="pop">Start</p>
+            </div>
+            <div class="img-box">
+              <img src="images/html.png">
+              <p class="pop">Design</p>
+            </div>
+            <div class="img-box">
+              <img src="images/site.png">
+              <p class="pop">Create</p>
+            </div>
+          </div>        
+        </div>
+      </div>
+    </div>
+
+    <!--  ABOUT  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/anya_pic.JPG">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br>
+            <p class="desc">Hi! My name is Anya Kandlikar, and currently I am a freshman at the University of Central Florida, pursuing a Digital Media degree. I have a passion for creative technology and am building a career as either a front-end developer or UI/UX designer.
+            <br> <br>
+            This website was created entirely by me using HTML, CSS, and JavaScript.It presents a number of projects that illustrate my passion and creativity for design and development. Each project explores a different aspect of what I love about the web: coding, creativity, and user-centered design.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="
+                openTab('skills')
+                ">Skills</p>
+              <p class="tab-links" onclick="
+                openTab('education')
+              ">Education</p>
+              <p class="tab-links" onclick="
+                openTab('experience')
+              ">Experience</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span>
+                <br><br>
+                Designing Web/App Interfaces</li>
+                <br>
+                <li><span>Graphic Design</span><br><br>Building dream-like posters</li>
+                <br>
+                <li><span>Front-End Design</span><br><br>Interactive Websites</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2012 - 2021</span><br><br>Hyderabad Public School</li>
+                <br>
+                <li><span>2021 - 2023</span><br><br>Fort Walton Beach High School</li>
+                <br>
+                <li><span>2023 - 2024</span><br><br>Timber Creek High School</li>
+                <br>
+                <li><span>2025 - current</span><br><br>University of Central Florida</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Web & Digital Media Intern (Academic Credit Internship)
+                  <br>
+                  JBIER | Spring 2026 – Summer 2026</span>
+                <br><br>
+                • Contributed in troubleshooting Instagram Shop issues, helped restore product visibility and checkout functionality.
+                <br> <br>
+                • Conducted research on FAQ and review structures to improve JBIER's site user navigation.
+                <br> <br>
+                • Organized and categorized 38 alumni testimonials to maintain accurate clarification.
+                <br> <br>
+                • Edited and designed product images in Canva and refined them for digital use.  
+                <br> <br>
+                • Review product photo assets and made note of missing content.
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Portfolio  -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+         <div class="work-list">
+          <div class="work">
+            <img src="images/to-do.jpg">
+            <div class="layered">
+              <h3>To-Do List</h3>
+              <p>An interactive to-do list that helps you create an effective schedule for day-to-day life. The to-do list is created by using HTML, CSS and JS</p>
+              <a href="todo-list/to-do-list-advanced.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+          
+          <div class="work">
+            <img src="images/r:p:s-game.jpg">
+            <div class="layered">
+              <h3>Rock Paper Scissor Game</h3>
+              <p>An interactive Rock Paper Scissor Game that allows you to have a friendly match with a computer. The game is created by using HTML, CSS and JS</p>
+              <a href="rock-paper-scissors/rock-papaer-scissors-advanced.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/insta.jpg">
+            <div class="layered">
+              <h3>Instagram</h3>
+              <p>An interactive instagram page that allows freinds to view stories and users can use the 'esc' key to escape. This was created by using HTML, CSS and JS</p>
+              <a href="insta/insta.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+          
+          <div class="work">
+            <img src="images/weather.jpg">
+            <div class="layered">
+              <h3>Weather App</h3>
+              <p>An interactive weather app that allows you to check any cities current weather situation. The weather app is created by using HTML, CSS and JS</p>
+              <a href="weather/weather.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+          
+          <div class="work">
+            <img src="images/memory.jpg">
+            <div class="layered">
+              <h3>Memory Game</h3>
+              <p>A simple memory game that let's the user remember and match cards in order to win. This project is created by using HTML, CSS and JS</p>
+              <a href="memory-game/memory.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/calc.jpg">
+            <div class="layered">
+              <h3>Calculator</h3>
+              <p>An interactive calculator that allows you to do basic addition, subtraction, division and multiplication. The calculator is created by using HTML, CSS and JS</p>
+              <a href="calculator/calculator.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/inky.jpg">
+            <div class="layered">
+              <h3>Ink Game</h3>
+              <p>An ink game allows the user play a simple fantasy choice game. This game was created in a software called ink and was styled with HTML and CSS</p>
+              <a href="Should I Stay or Leave/index.html" target="_blank" class="view">Click - View Project</a>
+            </div>
+          </div>
+          
+          <div class="work">
+            <img src="images/book.jpg">
+            <div class="layered">
+              <h3>Book Store Website</h3>
+              <p>An interactive bookstore website where users can search and add books to cart. This a semi- -intersctive book store site is created by using HTML, CSS, and JS</p>
+              <a href="booksite-interactive/home.html" target="_blank" class="view"> Click - View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/music-player.jpg">
+            <div class="layered">
+              <h3>Music Player</h3>
+              <p>An interactive music player where users listen to music and switch between songs. This projects was created by using HTML, CSS, and JS</p>
+              <a href="music-player/music.html" target="_blank" class="view"> Click - View Project</a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="Artwork/art.png">
+            <div class="layered">
+              <h3>Colorful Nature</h3>
+              <p>A beautiful color-nature poster, created by using procreate.</p>
+              <a href="Artwork/art.png" target="_blank" class="view"> Click - View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Contact  -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p>an305064@ucf.edu</p>
+              <p>+1 (352)-540-8832 </p>
+              <div class="in-li-icon">
+                <a href="https://www.linkedin.com/in/anya-kandlikar-a7b86b321/" target="_blank" rel="noopener noreferrer">
+                  <img class="linkdin" src="images/linkedin.png">
+                </a>
+              </div>
+              <a href="images/Anya-Resume.pdf" download class="btn btn2" target="_blank">Download Resume</a>
+            </div>
+          
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" class="input" name="Name" placeholder="Your Name" required>
+                
+                <input type="text" class="input" name="Email" placeholder="Your Email" required>
+
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn btn2">
+                  Submit
+                </button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="scripts/website.js"></script>
+  </body>
+</html>
