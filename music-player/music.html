@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="music.css">
+  </head>
+  <body>
+    <div id="music-elements">
+      <img id="music-img" src="img/piano.jpg">
+      <div id="music-name">Song</div>
+      <div id="music-artist">Artist</div>
+
+      <input id="slider-song" type="range">
+
+      <div id="button">
+        <i id="shuffle" class="fa-solid fa-shuffle"></i>
+        <i id="backward" class="fa-solid fa-backward-step fa-2x"></i>
+        <i id="circle-play" class="fa-solid fa-circle-play fa-3x"></i>
+        <i id="forward" class="fa-solid fa-forward-step fa-2x"></i>
+        <i id="repeat" class="fa-solid fa-repeat"></i>
+      </div>
+    </div>
+    <script src="music.js"></script>
+  </body>
+</html>
