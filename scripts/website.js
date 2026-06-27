@@ -34,7 +34,7 @@ butterfly.addEventListener("animationend", () => {
   title.style.transform = "translateY(0)";
 });
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzmLYYVDGIeR0Y7cUt0t60_DFxJdRBSPTjFGCmyVxm-yPBl3vQf2r-2JxjX9lsVQIAv/exec'
+  const scriptURL = 'https://docs.google.com/spreadsheets/d/18sdG0l8bU00eOa8U5_-r_TFOki4LeY7EM0ZYk1Rc468/edit?gid=0#gid=0'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
 
