@@ -27,9 +27,9 @@ const music = [
 
   {
     image: "img/rose.jpg",
-    name: "Romeo and Juliet (Overture-Fantasia)",
-    artist: "Pyotr Ilyich Tchaikovsky",
-    audio: "music/Romeo and Juliet (Overture-Fantasia).mp3"
+    name: "Balcony Love - Flirty Romantic Music",
+    artist: "DKFILMS",
+    audio: "music/dkfilms-balcony-love-flirty-romantic-music-268732.mp3"
   }
 ];
 
